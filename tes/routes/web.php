@@ -13,10 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.master');
+
+Route::get('/login', function () {
+    return view('login');
 });
 
 Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::get('/lupa', function () {
+    return view('lupass');
+});
+
+Route::get('/daftar', function () {
+    return view('register');
+});
+
+Route::get('/search', function () {
+    return view('search');
+});
+
+Route::get('/more', function () {
+    return view('more');
 });
