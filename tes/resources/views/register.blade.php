@@ -67,7 +67,11 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
+<<<<<<< HEAD
+            <a href="/welcome" class="btn btn-primary btn-block">Daftar</a>
+=======
           <a href= "/welcome" class="btn btn-primary btn-block"> Daftar</a>
+>>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
           </div>
           <!-- /.col -->
         </div>

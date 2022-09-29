@@ -76,27 +76,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="./index.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lowongan Kerja</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./index3.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kategori</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/search" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Search</p>
                 </a>
               </li>
             </ul>
@@ -117,7 +111,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/welcome" class="nav-link">Home</a>
+        <a href="index3.html" class="nav-link">Home</a>
       </li>
     </ul>
 
@@ -167,42 +161,29 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-<<<<<<< HEAD
             
             <p> </p>
             <div class="content">
             
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
-=======
-            <p> </p>
-            <div class="content">
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
-            <div class="card-header text-right">
-            </div>
->>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
+            <a class="h1"><b>Management Traine</a>
+            <h4 class="m-0">PT Circleka Indonesia Utama</h4>
+            <h6 class="m-1">Jakarta Raya</h6>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
-                <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
-                <h6 class="m-1">- Mengatur, mengawasi, menghitung jumlah stock barang</h6>
-                <h6 class="m-1">- Mengontrol keluar masuk barang & membuat laporan stock barang</h6>
-                <h6 class="m-1">- Melakukan pengecekan secara berkala</h6>
+                <h6 class="m-1">- Pendidikan S1 semua jurusan diutamkan Eksak</h6>
+                <h6 class="m-1">- IPK minimal 3.00</h6>
+                <h6 class="m-1">- Usia maksimal 25 tahun</h6>
+                <h6 class="m-1">- Pengalaman kerja minimal 1 tahun</h6>
+                <h6 class="m-1">- Diutamakan memiliki pengalaman organisai</h6>
+                <h6 class="m-1">- Memiliki kemampuan analisa dan konseptual yang baik</h6>
+                <h6 class="m-1">- Memiliki komunikasai dan interpersonal yang baik</h6>
+                <h6 class="m-1">- Memiliki kemampuan leadership yang baik</h6>
+                <h6 class="m-1">- Memilik fleksibilitas yang tinggi</h6>
+                <h6 class="m-1">- Fasih berbahasa inggris yang fasih (lisan dan tulisan)</h6>
+                <h6 class="m-1">- Bersedia penempatan di seluruh cabang Circle K Group</h6>
                 <h6 class="m-1"></h6>
             <p> </p>
-            <h7 class="m-3">Persyaratan :</h7>
-                <h6 class="m-1">- Pendidikan Minimal SMA/SMK/Sederajat</h6>
-                <h6 class="m-1">- Maksimal umur 30 tahun</h6>
-                <h6 class="m-1">- Pengalaman Minimal 1 Tahun</h6>
-                <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
-                <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
-                <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di abwah tekanan</h6>
-                <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
-                <h6 class="m-1">- Penempatan wilayah Tangerang
-                </h6>
+            
             
         
             
@@ -211,19 +192,7 @@
           <div class="col-sm-6">
           </div><!-- /.col -->
         </div><!-- /.row -->
-<<<<<<< HEAD
         <p> </p>
-        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/yanno.jpg" alt="User Image">
-=======
-        <p></p>
-      <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
-<<<<<<< HEAD
-      <div class="col-6">
-        <p> </p>
-        <a href= "/welcome" class="btn btn-primary btn-block">Lamar Sekarang</a>
-      </div>
-=======
->>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
->>>>>>> 261bb8567b11aa2330503e38cddf5570722f9c14
+        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/circlek.png" alt="User Image">
     </div>
     <!-- /.content-header -->

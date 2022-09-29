@@ -37,3 +37,9 @@ Route::get('/search', function () {
 Route::get('/more', function () {
     return view('more');
 });
+Route::get('/more2', function () {
+    return view('more2');
+});  
+Route::get('/more3', function () {
+    return view('more3');
+});  

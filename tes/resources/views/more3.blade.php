@@ -76,27 +76,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="./index.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lowongan Kerja</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./index3.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kategori</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/search" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Search</p>
                 </a>
               </li>
             </ul>
@@ -117,7 +111,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/welcome" class="nav-link">Home</a>
+        <a href="index3.html" class="nav-link">Home</a>
       </li>
     </ul>
 
@@ -167,42 +161,27 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-<<<<<<< HEAD
             
             <p> </p>
             <div class="content">
             
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
-=======
-            <p> </p>
-            <div class="content">
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
-            <div class="card-header text-right">
-            </div>
->>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
+            <a class="h1"><b>Internal Audit Staff</a>
+            <h4 class="m-0">PT SR12 Herbal Kosmetik</h4>
+            <h6 class="m-1">Bogor</h6>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
-                <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
-                <h6 class="m-1">- Mengatur, mengawasi, menghitung jumlah stock barang</h6>
-                <h6 class="m-1">- Mengontrol keluar masuk barang & membuat laporan stock barang</h6>
-                <h6 class="m-1">- Melakukan pengecekan secara berkala</h6>
+                <h6 class="m-1">- Minimum gelar sarjana Akuntansi</h6>
+                <h6 class="m-1">- Minimum 1 tahun pengalaman bekerja dibidang akuntan</h6>
+                <h6 class="m-1">- Pengetahuan yang kuat tentang laporan keuangan, kebijakan pengendalian internal dan standar audit</h6>
+                <h6 class="m-1">- Pengalaman kerja minimal 1 tahun</h6>
+                <h6 class="m-1">- Keterampilan analisis yang kuat dan detail oriented</h6>
+                <h6 class="m-1">- Independen, Aktif dan proaktif</h6>
+                <h6 class="m-1">- Memiliki brevet A & lebih diutamakan</h6>
+                <h6 class="m-1">- Akurat dalam melaporkan dan mengatur data</h6>
+                <h6 class="m-1">- Bersedia ditempatkan di Gunung Sindur, Kab Bogor</h6>
                 <h6 class="m-1"></h6>
             <p> </p>
-            <h7 class="m-3">Persyaratan :</h7>
-                <h6 class="m-1">- Pendidikan Minimal SMA/SMK/Sederajat</h6>
-                <h6 class="m-1">- Maksimal umur 30 tahun</h6>
-                <h6 class="m-1">- Pengalaman Minimal 1 Tahun</h6>
-                <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
-                <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
-                <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di abwah tekanan</h6>
-                <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
-                <h6 class="m-1">- Penempatan wilayah Tangerang
-                </h6>
+            
             
         
             
@@ -211,19 +190,7 @@
           <div class="col-sm-6">
           </div><!-- /.col -->
         </div><!-- /.row -->
-<<<<<<< HEAD
         <p> </p>
-        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/yanno.jpg" alt="User Image">
-=======
-        <p></p>
-      <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
-<<<<<<< HEAD
-      <div class="col-6">
-        <p> </p>
-        <a href= "/welcome" class="btn btn-primary btn-block">Lamar Sekarang</a>
-      </div>
-=======
->>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
->>>>>>> 261bb8567b11aa2330503e38cddf5570722f9c14
+        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/sr12.png" alt="User Image">
     </div>
     <!-- /.content-header -->
