@@ -23,8 +23,8 @@
     </div>
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
-
-      <form action="AdminLTE-3.2.0/index3.html" method="post">
+      
+      <form action="AdminLTE-3.2.0/index2.html" method="post">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
@@ -52,14 +52,22 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
+<<<<<<< HEAD
             <a href="/welcome" class="btn btn-primary btn-block">Sign In</a>
+=======
+          <a href= "/welcome" class="btn btn-primary btn-block"> Sign In</a>
+>>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
           </div>
           <!-- /.col -->
         </div>
       </form>
 
       <p class="mb-0">
+<<<<<<< HEAD
       <a href="/daftar">Belum punya akun? Daftar </a>
+=======
+        <a href= "/daftar"> Belum punya akun? Daftar </a>
+>>>>>>> 7c9eb91bdb5533a2035a8daf42e038c56c3b4331
       </p>
     </div>
     <!-- /.card-body -->
