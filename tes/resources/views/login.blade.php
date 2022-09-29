@@ -52,17 +52,14 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <a href="/welcome" class="btn btn-primary btn-block">Sign In</a>
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-      <p class="mb-1">
-        <a href="forgot-password.html">Lupa Password</a>
-      </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Belum punya akun? Daftar </a>
+      <a href="/daftar">Belum punya akun? Daftar </a>
       </p>
     </div>
     <!-- /.card-body -->
@@ -72,10 +69,10 @@
 <!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script>
+<!-- <script src="AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script> -->
 <!-- Bootstrap 4 -->
 <script src="AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="AdminLTE-3.2.0/dist/js/adminlte.min.js"></script>
+<!-- <script src="AdminLTE-3.2.0/dist/js/adminlte.min.js"></script> -->
 </body>
 </html>

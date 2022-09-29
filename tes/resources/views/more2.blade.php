@@ -165,28 +165,25 @@
             <p> </p>
             <div class="content">
             
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
+            <a class="h1"><b>Management Traine</a>
+            <h4 class="m-0">PT Circleka Indonesia Utama</h4>
+            <h6 class="m-1">Jakarta Raya</h6>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
-                <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
-                <h6 class="m-1">- Mengatur, mengawasi, menghitung jumlah stock barang</h6>
-                <h6 class="m-1">- Mengontrol keluar masuk barang & membuat laporan stock barang</h6>
-                <h6 class="m-1">- Melakukan pengecekan secara berkala</h6>
+                <h6 class="m-1">- Pendidikan S1 semua jurusan diutamkan Eksak</h6>
+                <h6 class="m-1">- IPK minimal 3.00</h6>
+                <h6 class="m-1">- Usia maksimal 25 tahun</h6>
+                <h6 class="m-1">- Pengalaman kerja minimal 1 tahun</h6>
+                <h6 class="m-1">- Diutamakan memiliki pengalaman organisai</h6>
+                <h6 class="m-1">- Memiliki kemampuan analisa dan konseptual yang baik</h6>
+                <h6 class="m-1">- Memiliki komunikasai dan interpersonal yang baik</h6>
+                <h6 class="m-1">- Memiliki kemampuan leadership yang baik</h6>
+                <h6 class="m-1">- Memilik fleksibilitas yang tinggi</h6>
+                <h6 class="m-1">- Fasih berbahasa inggris yang fasih (lisan dan tulisan)</h6>
+                <h6 class="m-1">- Bersedia penempatan di seluruh cabang Circle K Group</h6>
                 <h6 class="m-1"></h6>
             <p> </p>
-            <h7 class="m-3">Persyaratan :</h7>
-                <h6 class="m-1">- Pendidikan Minimal SMA/SMK/Sederajat</h6>
-                <h6 class="m-1">- Maksimal umur 30 tahun</h6>
-                <h6 class="m-1">- Pengalaman Minimal 1 Tahun</h6>
-                <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
-                <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
-                <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di abwah tekanan</h6>
-                <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
-                <h6 class="m-1">- Penempatan wilayah Tangerang
-                </h6>
+            
             
         
             
@@ -196,6 +193,6 @@
           </div><!-- /.col -->
         </div><!-- /.row -->
         <p> </p>
-        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/yanno.jpg" alt="User Image">
+        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/circlek.png" alt="User Image">
     </div>
     <!-- /.content-header -->

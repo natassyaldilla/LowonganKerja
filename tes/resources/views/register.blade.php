@@ -67,7 +67,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+            <a href="/welcome" class="btn btn-primary btn-block">Daftar</a>
           </div>
           <!-- /.col -->
         </div>

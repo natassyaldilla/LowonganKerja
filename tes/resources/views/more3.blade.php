@@ -165,28 +165,23 @@
             <p> </p>
             <div class="content">
             
-            <a class="h1"><b>Staff Admin</a>
-            <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Tangerang Selatan</h6>
+            <a class="h1"><b>Internal Audit Staff</a>
+            <h4 class="m-0">PT SR12 Herbal Kosmetik</h4>
+            <h6 class="m-1">Bogor</h6>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
-                <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
-                <h6 class="m-1">- Mengatur, mengawasi, menghitung jumlah stock barang</h6>
-                <h6 class="m-1">- Mengontrol keluar masuk barang & membuat laporan stock barang</h6>
-                <h6 class="m-1">- Melakukan pengecekan secara berkala</h6>
+                <h6 class="m-1">- Minimum gelar sarjana Akuntansi</h6>
+                <h6 class="m-1">- Minimum 1 tahun pengalaman bekerja dibidang akuntan</h6>
+                <h6 class="m-1">- Pengetahuan yang kuat tentang laporan keuangan, kebijakan pengendalian internal dan standar audit</h6>
+                <h6 class="m-1">- Pengalaman kerja minimal 1 tahun</h6>
+                <h6 class="m-1">- Keterampilan analisis yang kuat dan detail oriented</h6>
+                <h6 class="m-1">- Independen, Aktif dan proaktif</h6>
+                <h6 class="m-1">- Memiliki brevet A & lebih diutamakan</h6>
+                <h6 class="m-1">- Akurat dalam melaporkan dan mengatur data</h6>
+                <h6 class="m-1">- Bersedia ditempatkan di Gunung Sindur, Kab Bogor</h6>
                 <h6 class="m-1"></h6>
             <p> </p>
-            <h7 class="m-3">Persyaratan :</h7>
-                <h6 class="m-1">- Pendidikan Minimal SMA/SMK/Sederajat</h6>
-                <h6 class="m-1">- Maksimal umur 30 tahun</h6>
-                <h6 class="m-1">- Pengalaman Minimal 1 Tahun</h6>
-                <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
-                <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
-                <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di abwah tekanan</h6>
-                <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
-                <h6 class="m-1">- Penempatan wilayah Tangerang
-                </h6>
+            
             
         
             
@@ -196,6 +191,6 @@
           </div><!-- /.col -->
         </div><!-- /.row -->
         <p> </p>
-        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/yanno.jpg" alt="User Image">
+        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/sr12.png" alt="User Image">
     </div>
     <!-- /.content-header -->
