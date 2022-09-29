@@ -203,5 +203,9 @@
         </div><!-- /.row -->
         <p></p>
       <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
+      <div class="col-6">
+        <p> </p>
+        <a href= "/welcome" class="btn btn-primary btn-block">Lamar Sekarang</a>
+      </div>
     </div>
     <!-- /.content-header -->

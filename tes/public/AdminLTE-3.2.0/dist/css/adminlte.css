@@ -2581,7 +2581,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #28a745;
   border-color: #007bff;
   box-shadow: none;
 }
@@ -6851,7 +6851,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #e83e8c !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,

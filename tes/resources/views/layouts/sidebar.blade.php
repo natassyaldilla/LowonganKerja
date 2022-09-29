@@ -59,6 +59,13 @@
               </li>
             </ul>
           </li>
+          <a href="/login" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Log Out
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
 
         </ul>
       </nav>
