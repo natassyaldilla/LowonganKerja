@@ -76,21 +76,27 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="#" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lowongan Kerja</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kategori</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/search" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search</p>
                 </a>
               </li>
             </ul>
@@ -111,7 +117,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="/welcome" class="nav-link">Home</a>
       </li>
     </ul>
 
@@ -161,13 +167,13 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/yanno.jpeg" alt="User Image">
             <p> </p>
             <div class="content">
-            <div class="container-fluid">
             <a class="h1"><b>Staff Admin</a>
             <h4 class="m-0">PT Yanno Agro Science</h4>
-            <h6 class="m-1">Ruko Golden Madrid Blok E No. 36, JL. Letnan Soetopo BSD, Tangerang Selatan, Indonesia 15318</h6>
+            <h6 class="m-1">Tangerang Selatan</h6>
+            <div class="card-header text-right">
+            </div>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
                 <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
@@ -195,6 +201,7 @@
           <div class="col-sm-6">
           </div><!-- /.col -->
         </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
+        <p></p>
+      <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
     </div>
     <!-- /.content-header -->

@@ -67,13 +67,13 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+          <a href= "/welcome" class="btn btn-primary btn-block"> Daftar</a>
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-      <a href="login.html" class="text-center">Sudah punya akun</a>
+      <a href= "/login">Sudah punya akun</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->
