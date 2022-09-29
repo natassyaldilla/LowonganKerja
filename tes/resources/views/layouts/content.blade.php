@@ -6,7 +6,7 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard</h1>
-            <h6 class="m-0">1-20 terbaru dari 100.000 lowongan</h6>
+            <h6 class="m-0">1-8 terbaru dari 100.000 lowongan</h6>
           </div><!-- /.col -->
           <div class="col-sm-6">
           </div><!-- /.col -->
@@ -28,10 +28,7 @@
 
               <p>Staff Admin</p>
             </div>
-            <div class="icon">
-              <i class="ion ion-bag"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -42,9 +39,6 @@
               <h3><sup style="font-size: 16px">PT. Circleka Indonesia Utama</sup></h3>
 
               <p>Management Trainee</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
             </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
@@ -58,9 +52,6 @@
 
               <p>HR Staff</p>
             </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
@@ -73,9 +64,6 @@
 
               <p>Import Staff</p>
             </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
@@ -87,9 +75,6 @@
             <h3><sup style="font-size: 16px">PT Ananta Swasta Dana</sup></h3>
 
               <p>Administration Staff</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
             </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
@@ -104,9 +89,6 @@
 
               <p>Staff Engineering</p>
             </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
@@ -119,9 +101,6 @@
 
               <p>HRD OFFICER</p>
             </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
@@ -133,9 +112,6 @@
             <h3><sup style="font-size: 16px">PT SR12 Herbal Kosmetik</sup></h3>
 
               <p>Accounting Staff</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-bag"></i>
             </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
