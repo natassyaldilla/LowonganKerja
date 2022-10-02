@@ -40,7 +40,7 @@
 
               <p>Management Trainee</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more2" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -52,7 +52,7 @@
 
               <p>HR Staff</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more3" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -62,7 +62,7 @@
             <div class="inner">
             <h3><sup style="font-size: 16px">PT Lock & Lock Indonesia</sup></h3>
 
-              <p>Import Staff</p>
+              <p>Sales Admin</p>
             </div>
             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>

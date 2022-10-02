@@ -43,3 +43,9 @@ Route::get('/more2', function () {
 Route::get('/more3', function () {
     return view('more3');
 });  
+Route::get('/index', function () {
+    return view('index');
+});  
+Route::get('/perusahaan', function () {
+    return view('perusahaan');
+});  

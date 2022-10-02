@@ -34,13 +34,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="/welcome" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/welcome" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lowongan Kerja</p>
                 </a>
@@ -52,20 +52,29 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/search" class="nav-link">
+                <a href="/perusahaan" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Search</p>
+                  <p>Perusahaan</p>
                 </a>
               </li>
             </ul>
           </li>
+          
+          <a href="/search" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Search
+                <i class="right fas fa-angle-left"></i>
+              </p>
+          </a>
+
           <a href="/login" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Log Out
                 <i class="right fas fa-angle-left"></i>
               </p>
-            </a>
+          </a>
 
         </ul>
       </nav>
