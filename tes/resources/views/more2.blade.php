@@ -9,13 +9,13 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            
             <p> </p>
             <div class="content">
-            
             <a class="h1"><b>Management Traine</a>
             <h4 class="m-0">PT Circleka Indonesia Utama</h4>
             <h6 class="m-1">Jakarta Raya</h6>
+            <div class="card-header text-right">
+            </div>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
                 <h6 class="m-1">- Pendidikan S1 semua jurusan diutamkan Eksak</h6>
@@ -41,6 +41,11 @@
           </div><!-- /.col -->
         </div><!-- /.row -->
         <p> </p>
-        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/circlek.png" alt="User Image">
+        <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/circlek.jpg" alt="User Image">
+        <div class="col-6">
+        <p> </p>
+        <a href= "/form" class="btn btn-warning btn-block">Lamar Sekarang</a>
+        <a href= "/welcome" class="btn btn-primary btn-block">Back</a>
+      </div>
     </div>
     <!-- /.content-header -->

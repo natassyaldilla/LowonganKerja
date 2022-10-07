@@ -6,7 +6,7 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard</h1>
-            <h6 class="m-0">1-8 terbaru dari 100.000 lowongan</h6>
+            <h6 class="m-0">1-8 terbaru dari 100 lowongan</h6>
           </div><!-- /.col -->
           <div class="col-sm-6">
           </div><!-- /.col -->
@@ -64,7 +64,7 @@
 
               <p>Sales Admin</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more4" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -76,7 +76,7 @@
 
               <p>Administration Staff</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more5" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -87,9 +87,9 @@
             <div class="inner">
               <h3><sup style="font-size: 16px">PT Ki-Antaka Rasa</sup></h3>
 
-              <p>Staff Engineering</p>
+              <p>Supervisor IT</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more6" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -99,9 +99,9 @@
             <div class="inner">
               <h3><sup style="font-size: 16px">PT Sekarguna Medika</sup></h3>
 
-              <p>HRD OFFICER</p>
+              <p>Web Developer</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more7" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -111,9 +111,9 @@
             <div class="inner">
             <h3><sup style="font-size: 16px">PT SR12 Herbal Kosmetik</sup></h3>
 
-              <p>Accounting Staff</p>
+              <p>Senior Programmer</p>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/more8" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
       <!-- /.row -->

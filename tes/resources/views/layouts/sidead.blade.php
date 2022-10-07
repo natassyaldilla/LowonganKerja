@@ -11,10 +11,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/perofil.png" class="img-circle elevation-2" alt="User Image">
+          <img src="{{asset('AdminLTE-3.2.0')}}/dist/img/perofil.png" class="img-circle" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"> Natassya Aldilla</a>
+          <a href="#" class="d-block"> Admin </a>
         </div>
       </div>
 
@@ -47,29 +47,7 @@
               </li>
             </ul>
           </li>
-          
-          <a href="/welcome" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Lowongan Kerja
-                <i class="right fas fa-angle-left"></i>
-              </p>
-          </a>
-          <a href="/perusahaan" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Perusahaan
-                <i class="right fas fa-angle-left"></i>
-              </p>
-          </a>
-
-          <a href="/search" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Search
-                <i class="right fas fa-angle-left"></i>
-              </p>
-          </a>
+        
 
           <a href="/login" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>

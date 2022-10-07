@@ -43,9 +43,36 @@ Route::get('/more2', function () {
 Route::get('/more3', function () {
     return view('more3');
 });  
+Route::get('/more4', function () {
+    return view('more4');
+});  
+Route::get('/more5', function () {
+    return view('more5');
+});
+Route::get('/more6', function () {
+    return view('more6');
+});
+Route::get('/more7', function () {
+    return view('more7');
+});
+Route::get('/more8', function () {
+    return view('more8');
+});
 Route::get('/index', function () {
     return view('index');
 });  
 Route::get('/perusahaan', function () {
     return view('perusahaan');
+});  
+Route::get('/peruad', function () {
+    return view('peruad');
+}); 
+Route::get('/peladm', function () {
+    return view('peladm');
+}); 
+Route::get('/form', function () {
+    return view('form');
+});  
+Route::get('/admin', function () {
+    return view('admin');
 });  

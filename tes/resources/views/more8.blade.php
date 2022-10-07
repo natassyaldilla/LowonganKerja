@@ -13,22 +13,20 @@
             <p> </p>
             <div class="content">
             
-            <a class="h1"><b>Internal Audit Staff</a>
+            <a class="h1"><b>Senior Programmer</a>
             <h4 class="m-0">PT SR12 Herbal Kosmetik</h4>
             <h6 class="m-1">Bogor</h6>
             <div class="card-header text-right">
             </div>
             <p> </p>
             <h7 class="m-3">Deskripsi Pekerjaan :</h7>
-                <h6 class="m-1">- Minimum gelar sarjana Akuntansi</h6>
-                <h6 class="m-1">- Minimum 1 tahun pengalaman bekerja dibidang akuntan</h6>
-                <h6 class="m-1">- Pengetahuan yang kuat tentang laporan keuangan, kebijakan pengendalian internal dan standar audit</h6>
-                <h6 class="m-1">- Pengalaman kerja minimal 1 tahun</h6>
-                <h6 class="m-1">- Keterampilan analisis yang kuat dan detail oriented</h6>
-                <h6 class="m-1">- Independen, Aktif dan proaktif</h6>
-                <h6 class="m-1">- Memiliki brevet A & lebih diutamakan</h6>
-                <h6 class="m-1">- Akurat dalam melaporkan dan mengatur data</h6>
-                <h6 class="m-1">- Bersedia ditempatkan di Gunung Sindur, Kab Bogor</h6>
+                <h6 class="m-1">- Sarjana Ilmu Komputer, Sistem Informasi</h6>
+                <h6 class="m-1">- Berpengalaman dalam membangun aplikasi skala besar</h6>
+                <h6 class="m-1">- Berpengalaman dalam platform teknologi back end</h6>
+                <h6 class="m-1">- Berpengalaman dalam platform teknologi seluler</h6>
+                <h6 class="m-1">- Berpengalaman dalam platform Flutter adalah keuntungan</h6>
+                <h6 class="m-1">- Berpengalaman dalam konstruksi perangkat lunak dan uji unit</h6>
+                <h6 class="m-1">- Penempatan di Gunung Sindur, Kab. Bogor</h6>
                 <h6 class="m-1"></h6>
             <p> </p>
             

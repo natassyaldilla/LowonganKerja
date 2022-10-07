@@ -31,7 +31,7 @@
                 <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
                 <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
                 <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di abwah tekanan</h6>
+                <h6 class="m-1">- Mampu bekerja di bawah tekanan</h6>
                 <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
                 <h6 class="m-1">- Penempatan wilayah Tangerang
                 </h6>
@@ -45,10 +45,11 @@
         </div><!-- /.row -->
         <p> </p>
         <p></p>
-      <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
-      <div class="col-6">
+        <img src="AdminLTE-3.2.0/dist/img/yanno.jpeg">
+        <div class="col-6">
         <p> </p>
-        <a href= "/welcome" class="btn btn-primary btn-block">Lamar Sekarang</a>
+        <a href= "/form" class="btn btn-success btn-block">Lamar Sekarang</a>
+        <a href= "/welcome" class="btn btn-primary btn-block">Back</a>
       </div>
     </div>
     <!-- /.content-header -->

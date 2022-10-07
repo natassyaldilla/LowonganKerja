@@ -50,7 +50,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/yano.jpg" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT Yanno Agro Science </h5>
               <p class="card-text"> Tangerang Selatan </p>
             </div>
@@ -59,7 +59,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/kiantaka.jpg" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT Ki-Antaka Rasa </h5>
               <p class="card-text"> Tangerang </p>
             </div>
@@ -68,7 +68,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/sekarguna.jpg" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT Sekarguna Medika </h5>
               <p class="card-text"> Jakarta Selatan </p>
             </div>
@@ -77,7 +77,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/lock.png" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT Lock & Lock </h5>
               <p class="card-text"> Jakarta Selatan </p>
             </div>
@@ -86,25 +86,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
-              <h5 class="card-title-center py-2"> PT Ananta Swasta Dana </h5>
-              <p class="card-text"> Tangerang </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card text-center">
-            <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
-              <h5 class="card-title-center py-2"> PT Circleka Indonesia Utama </h5>
-              <p class="card-text"> Jakarta Raya </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card text-center">
-            <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/sr12.jpg" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
               <p class="card-text"> Bogor </p>
             </div>
@@ -113,7 +95,25 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
-              <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+              <img src="AdminLTE-3.2.0/dist/img/ananta.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Ananta Swasta Dana </h5>
+              <p class="card-text"> Tangerang </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/circlek.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Circleka Indonesia Utama </h5>
+              <p class="card-text"> Jakarta Raya </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/sr12.jpg" alt="" class="img-fluid">
               <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
               <p class="card-text"> Bogor </p>
             </div>
