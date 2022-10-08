@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\LokerController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,65 +16,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', [LokerController::class,'login']);
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+Route::get('/welcome', [LokerController::class,'welcome']);
 
-Route::get('/lupa', function () {
-    return view('lupass');
-});
+Route::get('/daftar', [LokerController::class,'daftar']);
 
-Route::get('/daftar', function () {
-    return view('register');
-});
+Route::get('/search', [LokerController::class,'search']);
 
-Route::get('/search', function () {
-    return view('search');
-});
+Route::get('/more', [LokerController::class,'more']);
 
-Route::get('/more', function () {
-    return view('more');
-});
-Route::get('/more2', function () {
-    return view('more2');
-});  
-Route::get('/more3', function () {
-    return view('more3');
-});  
-Route::get('/more4', function () {
-    return view('more4');
-});  
-Route::get('/more5', function () {
-    return view('more5');
-});
-Route::get('/more6', function () {
-    return view('more6');
-});
-Route::get('/more7', function () {
-    return view('more7');
-});
-Route::get('/more8', function () {
-    return view('more8');
-});
-Route::get('/index', function () {
-    return view('index');
-});  
-Route::get('/perusahaan', function () {
-    return view('perusahaan');
-});  
-Route::get('/peruad', function () {
-    return view('peruad');
-}); 
-Route::get('/peladm', function () {
-    return view('peladm');
-}); 
-Route::get('/form', function () {
-    return view('form');
-});  
-Route::get('/admin', function () {
-    return view('admin');
-});  
+Route::get('/more2', [LokerController::class,'more2']);
+
+Route::get('/more3', [LokerController::class,'more3']);
+
+Route::get('/more4', [LokerController::class,'more4']);
+
+Route::get('/more5', [LokerController::class,'more5']);
+
+Route::get('/more6', [LokerController::class,'more6']);
+
+Route::get('/more7', [LokerController::class,'more7']);
+
+Route::get('/more8', [LokerController::class,'more8']);
+
+Route::get('/index', [LokerController::class,'index']);
+
+Route::get('/perusahaan', [LokerController::class,'perusahaan']);
+
+Route::get('/peruad', [LokerController::class,'peruad']);
+
+Route::get('/peladm', [LokerController::class,'peladm']);
+
+Route::get('/form', [LokerController::class,'form']);
+
+Route::get('/admin', [LokerController::class,'admin']);
