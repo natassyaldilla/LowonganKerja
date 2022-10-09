@@ -51,3 +51,17 @@ Route::get('/peladm', [LokerController::class,'peladm']);
 Route::get('/form', [LokerController::class,'form']);
 
 Route::get('/admin', [LokerController::class,'admin']);
+
+Route::get('/kiantaka', [LokerController::class,'kiantaka']);
+
+Route::get('/yanno', [LokerController::class,'yanno']);
+
+Route::get('/sekarguna', [LokerController::class,'sekarguna']);
+
+Route::get('/lock', [LokerController::class,'lock']);
+
+Route::get('/circlek', [LokerController::class,'circlek']);
+
+Route::get('/ananta', [LokerController::class,'ananta']);
+
+Route::get('/sr12', [LokerController::class,'sr12']);

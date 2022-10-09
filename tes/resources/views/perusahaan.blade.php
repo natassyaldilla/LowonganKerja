@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cari Lowongan Form</title>
+  <title>Perusahaan</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -54,6 +54,7 @@
               <h5 class="card-title-center py-2"> PT Yanno Agro Science </h5>
               <p class="card-text"> Tangerang Selatan </p>
             </div>
+            <a href="/yanno" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -63,6 +64,7 @@
               <h5 class="card-title-center py-2"> PT Ki-Antaka Rasa </h5>
               <p class="card-text"> Tangerang </p>
             </div>
+            <a href="/kiantaka" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -72,6 +74,7 @@
               <h5 class="card-title-center py-2"> PT Sekarguna Medika </h5>
               <p class="card-text"> Jakarta Selatan </p>
             </div>
+            <a href="/sekarguna" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -81,6 +84,7 @@
               <h5 class="card-title-center py-2"> PT Lock & Lock </h5>
               <p class="card-text"> Jakarta Selatan </p>
             </div>
+            <a href="/lock" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -90,6 +94,7 @@
               <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
               <p class="card-text"> Bogor </p>
             </div>
+            <a href="/sr12" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -99,6 +104,7 @@
               <h5 class="card-title-center py-2"> PT Ananta Swasta Dana </h5>
               <p class="card-text"> Tangerang </p>
             </div>
+            <a href="/ananta" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -108,6 +114,7 @@
               <h5 class="card-title-center py-2"> PT Circleka Indonesia Utama </h5>
               <p class="card-text"> Jakarta Raya </p>
             </div>
+            <a href="/circlek" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
@@ -117,6 +124,7 @@
               <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
               <p class="card-text"> Bogor </p>
             </div>
+            <a href="/sr12" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
       </div>

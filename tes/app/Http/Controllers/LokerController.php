@@ -77,4 +77,32 @@ class LokerController extends Controller
     public function admin(){
         return view('admin');
     }
+
+    public function kiantaka(){
+        return view('kiantaka');
+    }
+
+    public function yanno(){
+        return view('yanno');
+    }
+
+    public function sekarguna(){
+        return view('sekarguna');
+    }
+
+    public function lock(){
+        return view('lock');
+    }
+
+    public function circlek(){
+        return view('circlek');
+    }
+
+    public function ananta(){
+        return view('ananta');
+    }
+
+    public function sr12(){
+        return view('sr12');
+    }
 }

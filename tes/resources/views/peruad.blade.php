@@ -36,43 +36,94 @@
       </div><!-- /.container-fluid -->
     </div>
 
-    <table class="table table-striped">
-    <thead>
-    <tr>
-      <th scope="col">No</th>
-      <th scope="col">Nama Perusahaan</th>
-      <th scope="col">ID Perusahaan</th>
-      <th colspan="3" scope="col">Action</th>
-    </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>PT Yanno Agro Science</td>
-      <td>12345</td>
-      <td><i class="fas fa-edit"></i></td>
-      <td><i class="fas fa-trash-alt"></i></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>PT. Circleka Indonesia Utama</td>
-      <td>23456</td>
-      <td><i class="fas fa-edit"></i></td>
-      <td><i class="fas fa-trash-alt"></i></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>PT SR12 Herbal Kosmetik</td>
-      <td>34567</td>
-      <td><i class="fas fa-edit"></i></td>
-      <td><i class="fas fa-trash-alt"></i></td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>PT Lock & Lock Indonesia</td>
-      <td>45678</td>
-      <td><i class="fas fa-edit"></i></td>
-      <td><i class="fas fa-trash-alt"></i></td>
-    </tr>
-  </tbody>
-</table>
+    <p></p>
+    <section id="team" class="team section-padding">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/yano.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Yanno Agro Science </h5>
+              <p class="card-text"> Tangerang Selatan </p>
+            </div>
+            <a href="/yanno" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/kiantaka.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Ki-Antaka Rasa </h5>
+              <p class="card-text"> Tangerang </p>
+            </div>
+            <a href="/kiantaka" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/sekarguna.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Sekarguna Medika </h5>
+              <p class="card-text"> Jakarta Selatan </p>
+            </div>
+            <a href="/sekarguna" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/lock.png" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Lock & Lock </h5>
+              <p class="card-text"> Jakarta Selatan </p>
+            </div>
+            <a href="/lock" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/sr12.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
+              <p class="card-text"> Bogor </p>
+            </div>
+            <a href="/sr12" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/ananta.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Ananta Swasta Dana </h5>
+              <p class="card-text"> Tangerang </p>
+            </div>
+            <a href="/ananta" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/circlek.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT Circleka Indonesia Utama </h5>
+              <p class="card-text"> Jakarta Raya </p>
+            </div>
+            <a href="/circlek" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="AdminLTE-3.2.0/dist/img/sr12.jpg" alt="" class="img-fluid">
+              <h5 class="card-title-center py-2"> PT SR12 Herbal Kosmetik </h5>
+              <p class="card-text"> Bogor </p>
+            </div>
+            <a href="/sr12" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+            </div>
+        </div>
+    </section>
+  </div>
+

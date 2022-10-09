@@ -30,10 +30,16 @@
           </div>
         </div>
     </nav>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
+  <h5><b>Cari</b>Kerja.</a></h5>
     <div class="carousel-item active">
-      <img src="AdminLTE-3.2.0/dist/img/photo1.png" class="d-block w-100" alt="...">
+      <img src="AdminLTE-3.2.0/dist/img/logo.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1><b>Cari</b>Kerja.</a></h1>
         <p><a href="/login" class="btn btn-info mt-3">LOG IN</a>
@@ -41,14 +47,24 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="AdminLTE-3.2.0/dist/img/index3.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="AdminLTE-3.2.0/dist/img/index1.png" class="d-block w-100" alt="...">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
     
+
+
 
 <!-- about section -->
   <section id="about" class="about section-padding">
@@ -58,13 +74,16 @@
           <div class="about-img">
             <!-- foto tentang cari kerja -->
             <p></p>
-            <img src="AdminLTE-3.2.0/dist/img/photo1.png" alt="" class="img-fluid">
+            <img src="AdminLTE-3.2.0/dist/img/logo1.png" alt="" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
           <div class="about-text">
             <h2> Apakah CariKerja itu?</h2>
-            <p> Website CariKerja adalah website yang mempermudah para pejuang pencari kerja untuk bisa mendapatkan pekerjaan sesuai yang diinginkan</p>
+            <p> Website CariKerja adalah website yang mempermudah para pejuang pencari kerja untuk bisa mendapatkan pekerjaan sesuai yang diinginkan.
+            Dalam website ini menyediakan ratusan lowongan pekerjaan yang membantu anda untuk menemukan pekerjaan yang sesuai dengan keinginan anda. 
+            Sangat banyak sekali perusahaan dan juga pilihan profesi.
+            Siapkan diri anda untuk melamar pekerjaan di CariKerja!! </p>
           </div>
         </div>
       </div>
