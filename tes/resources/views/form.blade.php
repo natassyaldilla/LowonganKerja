@@ -33,7 +33,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/welcome"><span class="text-white">Dashboard</span></a>
+                <a class="nav-link" aria-current="page" href="/cbindex"><span class="text-white">Dashboard</span></a>
               </li>
               </ul>
           </div>
@@ -78,6 +78,10 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                   </div>
                   <div class="form-group">
+                    <label for="exampleInputPassword1">No Telp</label>
+                    <input type="password" class="form-control" id="exampleInputNoTelp1" placeholder="No Telp">
+                  </div>
+                  <div class="form-group">
                     <label for="exampleInputFile">CV</label>
                     <div class="input-group">
                       <div class="custom-file">
@@ -93,7 +97,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="/aftersubpel" class="btn btn-primary">Submit</a>
                 </div>
               </form>
             </div>

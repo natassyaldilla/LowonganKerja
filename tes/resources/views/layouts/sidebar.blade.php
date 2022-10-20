@@ -71,7 +71,7 @@
               </p>
           </a>
 
-          <a href="/login" class="nav-link">
+          <a href="/index" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Log Out

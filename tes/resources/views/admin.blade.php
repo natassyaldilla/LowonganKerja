@@ -52,7 +52,7 @@
             <div class="icon">
                 <i class="ion ion-briefcase"></i>
               </div>
-            <a href="/peruad" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/pilihan" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -69,3 +69,58 @@
             <a href="/peladm" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
+</section>
+<p> </p>
+
+<div class="col-sm-6">
+  <h3 class="m-0">Pelamar</h3>
+<p> </p>
+</div>
+<p> </p>
+
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Nama Pelamar</th>
+      <th scope="col">ID Pelamar</th>
+      <th scope="col">Tanggal Pendaftaran</th>
+      <th colspan="3" scope="col">Action</th>
+    </thead>
+    </tr>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Keyla Violetta</td>
+      <td>0987</td>
+      <td>10-10-2020</td>
+      <td><i class="fas fa-edit"></i></td>
+      <td><i class="fas fa-trash-alt"></i></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Brian Satria</td>
+      <td>9876</td>
+      <td>15-09-2020</td>
+      <td><i class="fas fa-edit"></i></td>
+      <td><i class="fas fa-trash-alt"></i></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Herry Prianto</td>
+      <td>5678</td>
+      <td>20-06-2019</td>
+      <td><i class="fas fa-edit"></i></td>
+      <td><i class="fas fa-trash-alt"></i></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Danilla Ramadhina</td>
+      <td>1469</td>
+      <td>06-09-2021</td>
+      <td><i class="fas fa-edit"></i></td>
+      <td><i class="fas fa-trash-alt"></i></td>
+    </tr>
+  </tbody>
+</table>

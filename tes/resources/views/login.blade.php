@@ -52,13 +52,15 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-          <a href= "/welcome" class="btn btn-primary btn-block"> Sign In</a>
+          <a href= "/cbindex" class="btn btn-primary btn-block"> Sign In</a>
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-      <p class="mb-0">
+      <p class="mb-2">
+        <a href= "/loginad"> Login as Administrator </a>
+        <p></p>
         <a href= "/daftar"> Belum punya akun? Daftar </a>
       </p>
     </div>

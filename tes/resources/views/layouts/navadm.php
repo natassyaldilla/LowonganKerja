@@ -11,9 +11,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="/admin" class="nav-link">Dashboard</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="/search" class="nav-link">Search</a>
-      </li>
     </ul>
 
   </nav>
