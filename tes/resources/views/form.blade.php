@@ -1,104 +1,60 @@
+@include('layouts.header')
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lamar Sekarang!</title>
-
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{asset('AdminLTE-3.2.0')}}/plugins/fontawesome-free/css/all.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="{{asset('AdminLTE-3.2.0')}}/dist/css/adminlte.min.css">
+    <tittle></tittle>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
+<body>
+<div class="container">
+<p></p>
+<p></p>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CariKerja</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-
-  <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container">
-          <h5><b>Cari</b>Kerja.</a></h5>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/cbindex"><span class="text-white">Dashboard</span></a>
-              </li>
-              </ul>
-          </div>
-        </div>
-      </nav>
-      <p></p>
-
-      <p> </p>
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <p></p>
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <p> </p>
-            <h1>Lamar Pekerjaan</h1>
-            <p class="login-box">Lamar Pekerjaan Sekarang Secara Gratis dan Cepat di CariKerja</p>
-          </div>
-          <div class="col-sm-6">
-          </div>
-        </div>
-      </div><!-- /.container-fluid -->
-    </section>
-
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <!-- left column -->
-          <div class="col-md-8">
-            <!-- general form elements -->
-              <form>
-                <div class="card-body">
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">No Telp</label>
-                    <input type="password" class="form-control" id="exampleInputNoTelp1" placeholder="No Telp">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputFile">CV</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
-                      <div class="input-group-append">
-                        <span class="input-group-text">Upload</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /.card-body -->
-
-                <div class="card-footer">
-                <a href="/aftersubpel" class="btn btn-primary">Submit</a>
-                </div>
-              </form>
+    <h3 class="text-center">Lamar Pekerjaan</h3>
+    <h5 class="text-center">Lamar Pekerjaan Sekarang Secara Gratis dan Cepat di CariKerja</h5>
+    <!--awal card-->
+    <div class="card mt-3">
+    <div class="card-header bg-secondary text-white">
+    Input Data Pelamar
+    </div>
+    <div class="card-body">
+        <form method="POST" action="{{ url('datapel') }}">
+            @csrf
+            <div class="form-group">
+                <label>Nama Pelamar</label>
+                <input type="text" name="nama" class="form-control" placeholder="Input Nama Anda" required>
             </div>
-            <!-- /.card -->
+            <p></p>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="email" class="form-control" placeholder="Input Email Anda" required>
+            </div>
+            <p></p>
+            <div class="form-group">
+                <label>No Telp</label>
+                <input type="text" name="notelp" class="form-control" placeholder="Input No Telp Anda" required>
+            </div>
+            <p></p>
+            <div class="form-group">
+                <label>Perusahaan yang Dituju</label>
+                <input type="text" name="perusahaan" class="form-control" placeholder="Input Nama Perusahaan yang Dituju" required>
+            </div>
+            <p></p>
+            <div class="form-group">
+                <label>Posisi yang di Inginkan</label>
+                <input type="text" name="posisi" class="form-control" placeholder="Input Posisi yang Diinginkan" required>
+            </div>
+            <button type="submit" class="btn btn-success" name="submit">Submit</button>
+            <a href= "/cbindex" type="button" class="btn btn-primary" name="back">Back</a>
+
+        </form>
+    </div>
+    </div>
+    <!--akhir card-->
+    <br>
+</div>
+<br></br>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

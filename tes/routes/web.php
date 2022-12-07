@@ -19,8 +19,6 @@ use App\Http\Controllers\LockMoreController;
 use App\Http\Controllers\LoginAdController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PeladmController;
-use App\Http\Controllers\PeruadController;
-use App\Http\Controllers\PerusahaanController;
 use App\Http\Controllers\PilihanController;
 use App\Http\Controllers\SekargunaController;
 use App\Http\Controllers\SekargController;
@@ -29,7 +27,12 @@ use App\Http\Controllers\Sr12MoreController;
 use App\Http\Controllers\SrMoreController;
 use App\Http\Controllers\YannoController;
 use App\Http\Controllers\YannoMoreController;
-use App\Http\Controllers\OutPeruadController;
+use App\Http\Controllers\DataPeruadController;
+use App\Http\Controllers\PerusahaannController;
+use App\Http\Controllers\LokerjaController;
+use App\Http\Controllers\LamaranController;
+use App\Http\Controllers\PerusahaanController;
+use App\Http\Controllers\CbIndexController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -46,6 +49,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/login', [LoginController::class,'login']);
+Route::post('/loginAuthenticate', [LoginController::class,'authenticate']);
 
 Route::get('/welcome', [LokerController::class,'welcome']); 
 
@@ -71,13 +75,22 @@ Route::get('/more8', [SrMoreController::class,'more8']);
 
 Route::get('/index', [LokerController::class,'index']);
 
-Route::get('/perusahaan', [PerusahaanController::class,'perusahaan']);
+Route::get('/peruad', [PerusahaannController::class,'peruad']);
+Route::get('/peruadupdate', [PerusahaannController::class,'peruadupdate']);
+Route::post('/store', [PerusahaannController::class, 'store'])->name('store');
+Route::resource('/dataperuad', PerusahaannController::class);
 
-Route::get('/peruad', [PeruadController::class,'peruad']);
+Route::get('/form', [LamaranController::class,'form']);
+Route::post('/store', [LamaranController::class, 'store'])->name('store');
+Route::resource('/datapel', LamaranController::class);
+
+Route::get('/lokerja', [LokerjaController::class,'lokerja']);
+Route::get('/lokerjaupdate', [LokerjaController::class,'lokerjaupdate']);
+Route::post('/store', [LokerjaController::class, 'store'])->name('store');
+Route::resource('/datalokerja', LokerjaController::class);
 
 Route::get('/peladm', [PeladmController::class,'peladm']);
 
-Route::get('/form', [FormController::class,'form']);
 
 Route::get('/admin', [AdminController::class,'admin']);
 
@@ -108,3 +121,7 @@ Route::get('/aftersub', [AfterSubController::class,'aftersub']);
 Route::get('/aftersubpel', [AfterSubPelController::class,'aftersubpel']);
 
 Route::get('/outperuad', [OutPeruadController::class,'outperuad']);
+
+
+Route::get('/perusahaan', [PerusahaanController::class,'perusahaan']);
+

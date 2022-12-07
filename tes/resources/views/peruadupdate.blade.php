@@ -17,21 +17,22 @@
         Input Data Perusahaan
     </div>
     <div class="card-body">
-        <form method="POST" action="{{ url('dataperuad') }}">
+        <form method="POST" action="{{ url('dataperuad/'.$model->id) }}">
             @csrf
+            <input type="hidden" name="_method" value="PATCH">
             <div class="form-group">
                 <label>Nama Perusahaan</label>
-                <input type="text" name="nama" class="form-control" placeholder="Input Nama Perusahaan" >
+                <input type="text" name="nama" value="{{ $model->nama }}" class="form-control" placeholder="Input Nama Perusahaan" required>
             </div>
             <p></p>
             <div class="form-group">
                 <label>Email</label>
-                <input type="text" name="email" class="form-control" placeholder="Input Email Perusahaan" >
+                <input type="text" name="email" value="{{ $model->email }}" class="form-control" placeholder="Input Email Perusahaan" required>
             </div>
             <p></p>
             <div class="form-group">
                 <label>Alamat</label>
-                <input type="text" name="alamat" class="form-control" placeholder="Input Alamat" >
+                <input type="text" name="alamat" value="{{ $model->alamat }}" class="form-control" placeholder="Input Alamat" required>
             </div>
             <button type="submit" class="btn btn-success" name="simpan">Simpan</button>
             <a href= "/pilihan" type="button" class="btn btn-primary" name="back">Back</a>

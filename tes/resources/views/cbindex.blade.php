@@ -70,8 +70,31 @@
 
 <!-- Menu -->
 <div class="container">
+  <a href="/peruad">
+
+  </a>
+  <div class="row">
+        
+  </div>
         <div class="row mt-3">
-          <div class="col-md-3">
+
+      
+        @foreach($lokers as $l)
+
+          <div class="col-md-3 my-3" >
+              <div class="card border-dark">
+                <!-- <img src="AdminLTE-3.2.0/dist/img/yano.jpg" class="card-img-top" alt="..."> -->
+                <img src="{{asset('/pict_folder/'. $l->relation_code)}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">{{$l->posisi}}</h5>
+                <label class="card-text harga">{{$l->nama}}</label><br>
+                  <a href="/more" class="btn btn-primary btn-sm">More info</a>
+                </div>
+              </div>
+          </div>
+        
+        @endforeach
+          <!-- <div class="col-md-3">
             <div class="card border-dark">
               <img src="AdminLTE-3.2.0/dist/img/yano.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -137,7 +160,7 @@
             </div>
           </div>        
 
-          <div class="col-md-3">
+          <div class="colmd-3">
             <div class="card border-dark">
               <img src="AdminLTE-3.2.0/dist/img/sekarguna.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -157,11 +180,13 @@
                 <a href="/more8" class="btn btn-primary btn-sm">More info</a>
               </div>
             </div>
-          </div>   
+        </div>    -->
          </div> 
-      </div>
+  </div>
       <p></p>
+</div>
   <!-- Akhir Menu -->
+  
 
 
 

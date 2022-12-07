@@ -59,12 +59,12 @@
           <!-- small box -->
           <div class="small-box bg-success">
             <div class="inner">
-              <h3><sup style="font-size: 16px">Daftar Data Perusahaan</sup></h3>
+              <h3><sup style="font-size: 16px">Input Data LoKer</sup></h3>
             </div>
             <div class="icon">
                 <i class="ion ion-android-people"></i>
               </div>
-            <a href="/outperuad" class="small-box-footer">Pilih <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/lokerja" class="small-box-footer">Pilih <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 </section>
