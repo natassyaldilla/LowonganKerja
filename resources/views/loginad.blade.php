@@ -24,10 +24,9 @@
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
       
-      <form action="/loginAuthenticate" method="post">
-        @csrf
+      <form action="AdminLTE-3.2.0/index2.html" method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email" name="email">
+          <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -35,7 +34,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password" name="password">
+          <input type="password" class="form-control" placeholder="Password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -47,23 +46,21 @@
             <div class="icheck-primary">
               <input type="checkbox" id="remember">
               <label for="remember">
-                Remember Me 
+                Remember Me
               </label>
             </div>
           </div>
           <!-- /.col -->
           <div class="col-4">
-          <button type="submit" class="btn btn-primary">Log In</button>
-          {{-- <a href= "/cbindex" class="btn btn-primary btn-block"> Sign In</a> --}}
+          <a href= "/admin" class="btn btn-primary btn-block"> Sign In</a>
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-      <p class="mb-2">
-        <a href= "/loginad"> Login as Administrator </a>
+      <p class="mb-0">
+        <a href= "/login"> Login as Pelamar </a>
         <p></p>
-        <a href= "/daftar"> Belum punya akun? Daftar </a>
       </p>
     </div>
     <!-- /.card-body -->

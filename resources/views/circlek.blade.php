@@ -46,7 +46,7 @@
             <a class="nav-link" aria-current="page" href="#"><span class="text-white">Lowongan Kerja</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/index"><span class="text-white">Log Out</span></a>
+            <a class="nav-link" aria-current="page" href="/logout"><span class="text-white">Log Out</span></a>
             </li>
           </ul>
         </div>

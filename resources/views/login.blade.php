@@ -16,6 +16,16 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
+  @if (session()->has('loginError'))
+      <script>
+        alert('{{ session('loginError') }}')
+      </script>
+  @endif
+  @if (session()->has('success'))
+      <script>
+        alert('{{ session('success') }}')
+      </script>
+  @endif
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
@@ -24,9 +34,10 @@
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
       
-      <form action="AdminLTE-3.2.0/index2.html" method="post">
+      <form action="/loginAuthenticate" method="post">
+        @csrf
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email">
+          <input type="email" class="form-control" value="{{ session('email') }}" placeholder="Email" name="email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -34,7 +45,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" class="form-control" placeholder="Password" name="password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -46,22 +57,23 @@
             <div class="icheck-primary">
               <input type="checkbox" id="remember">
               <label for="remember">
-                Remember Me
+                Remember Me 
               </label>
             </div>
           </div>
           <!-- /.col -->
           <div class="col-4">
-          <a href= "/admin" class="btn btn-primary btn-block"> Sign In</a>
+          <button type="submit" class="btn btn-primary">Log In</button>
+          {{-- <a href= "/cbindex" class="btn btn-primary btn-block"> Sign In</a> --}}
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-      <p class="mb-0">
-        <a href= "/login"> Login as Pelamar </a>
+      <p class="mb-2">
+        <a href= "/loginad"> Login as Administrator </a>
         <p></p>
-        <a href= "/daftarad"> Belum punya akun? Daftar </a>
+        <a href= "/register"> Belum punya akun? Daftar </a>
       </p>
     </div>
     <!-- /.card-body -->

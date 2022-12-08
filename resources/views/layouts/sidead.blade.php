@@ -43,7 +43,7 @@
           </li>
         
 
-          <a href="/index" class="nav-link">
+          <a href="/logout" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Log Out
