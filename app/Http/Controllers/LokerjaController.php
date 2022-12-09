@@ -18,7 +18,6 @@ class LokerjaController extends Controller
   
     public function lokerja(){
         return view('lokerja',[
-            'perusahaan'=> $perusahaan
         ]);
     }
 
@@ -28,12 +27,14 @@ class LokerjaController extends Controller
     }
 
     public function lokerjaupdate(){
+
         return view('lokerjaupdate');
     }
     
     public function index()
     {
-        $data = lokerja::all();
+        $data = DB::table('lokerja')
+        ->join('perusahaan', 'lokerja.email', '=', 'perusahaan.email')->groupBy('lokerja.posisi')->get();
         return view('datalokerja', compact('data'));
     }
 
@@ -123,7 +124,8 @@ class LokerjaController extends Controller
     public function edit($id)
     {
         $model = Lokerja::find($id);
-        return view('/lokerjaupdate', compact('model'));
+        $perusahaan = Perusahaan::where('email',$model->email)->get();
+        return view('lokerjaupdate', compact('model','perusahaan'));
     }
 
     /**
@@ -136,7 +138,7 @@ class LokerjaController extends Controller
     public function update(Request $request, $id)
     {
         $model = Lokerja::find($id);
-        $model->nama = $request->nama;
+        $perusahaan = Perusahaan::where('email',$model->email)->update(['nama' => $request->nama]);
         $model->email = $request->email;
         $model->alamat = $request->alamat;
         $model->posisi = $request->posisi;

@@ -11,7 +11,7 @@ class Lokerja extends Model
     protected $table = "lokerja";
     protected $primaryKey = "id";
     protected $fillable = [
-        'id', 'nama', 'email', 'alamat', 'relation_code', 'posisi', 'deskripsi'];
+        'id', 'nama', 'email', 'alamat', 'relation_code', 'posisi', 'deskripsi','kriteria'];
         public function perusahaan()
         {
             return $this->belongsTO(perusahaan::class);

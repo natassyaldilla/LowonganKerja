@@ -22,7 +22,7 @@
             <input type="hidden" name="_method" value="PATCH">
             <div class="form-group">
                 <label>Nama Perusahaan</label>
-                <input type="text" name="nama" value="{{ $model->nama }}" class="form-control" placeholder="Input Nama Perusahaan" required>
+                <input type="text" name="nama" value="{{ $perusahaan[0]->nama }}" class="form-control" placeholder="Input Nama Perusahaan" required>
             </div>
             <p></p>
             <div class="form-group">
@@ -41,11 +41,11 @@
             </div>
             <div class="form-group">
                 <label>Deskripsi</label>
-                <textarea class="form-control" name="deskripsi" value="{{ $model->deskripsi }}" placeholder="Masukkan Deskripsi" required></textarea>
+                <textarea class="form-control" name="deskripsi" value="" placeholder="Masukkan Deskripsi" required>{{ $model->deskripsi }}</textarea>
             </div>
             <div class="form-group">
                 <label>Kriteria</label>
-                <textarea class="form-control" name="kriteria" value="{{ $model->kriteria }}" placeholder="Masukkan Deskripsi" required></textarea>
+                <textarea class="form-control" name="kriteria" value="" placeholder="Masukkan Deskripsi" required>{{ $model->kriteria }}</textarea>
             </div>
             <button type="submit" class="btn btn-success" name="simpan">Simpan</button>
             <a href= "/pilihan" type="button" class="btn btn-primary" name="back">Back</a>
