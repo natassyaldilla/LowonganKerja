@@ -28,7 +28,7 @@ use App\Http\Controllers\KiantakaController;
 use App\Http\Controllers\LockMoreController;
 use App\Http\Controllers\Sr12MoreController;
 use App\Http\Controllers\SekargunaController;
-use App\Http\Controllers\YannoMoreController;
+use App\Http\Controllers\MoreController;
 use App\Http\Controllers\CircleMoreController;
 use App\Http\Controllers\DataPeruadController;
 use App\Http\Controllers\PerusahaanController;
@@ -60,7 +60,7 @@ Route::post('/register', [DaftarController::class, 'registerpost']);
 
 Route::group(['middleware'=>['auth','ceklevel:pelamar']],function ()
 {
-Route::get('/more', [YannoMoreController::class, 'more']);
+Route::get('/more', [MoreController::class, 'more']);
 Route::get('/more2', [CircleMoreController::class, 'more2']);
 Route::get('/more3', [Sr12MoreController::class, 'more3']);
 Route::get('/more4', [LockMoreController::class, 'more4']);
@@ -70,9 +70,6 @@ Route::get('/more7', [SekargController::class, 'more7']);
 Route::get('/more8', [SrMoreController::class, 'more8']);
 Route::get('/form', [LamaranController::class, 'form']);
 Route::post('/store', [LamaranController::class, 'store'])->name('store');
-Route::resource('/datapel', LamaranController::class);
-Route::post('/store', [LokerjaController::class, 'store'])->name('store');
-Route::resource('/datalokerja', LokerjaController::class);
 Route::get('/kiantaka', [KiantakaController::class, 'kiantaka']);
 Route::get('/yanno', [YannoController::class, 'yanno']);
 Route::get('/sekarguna', [SekargunaController::class, 'sekarguna']);
@@ -91,7 +88,6 @@ Route::get('/perusahaan', [PerusahaanController::class, 'perusahaan']);
 
 Route::group(['middleware'=>['auth','ceklevel:admin']],function ()
 {
-    Route::get('/peladm', [PeladmController::class, 'peladm']);
     Route::get('/peruad', [PerusahaannController::class, 'peruad']);
     Route::get('/peruadupdate', [PerusahaannController::class, 'peruadupdate']);
     Route::post('/store', [PerusahaannController::class, 'store'])->name('store');
@@ -99,5 +95,9 @@ Route::group(['middleware'=>['auth','ceklevel:admin']],function ()
     Route::get('/admin', [AdminController::class, 'admin']);
     Route::get('/lokerja', [LokerjaController::class, 'lokerja']);
     Route::get('/lokerjaupdate', [LokerjaController::class, 'lokerjaupdate']);
+    Route::resource('/datapel', LamaranController::class);
+    Route::post('/store', [LokerjaController::class, 'store'])->name('store');
+    Route::resource('/datalokerja', LokerjaController::class);
+    Route::post('/insertlokerja',[LokerjaController::class,'insertlokerja']);
 });
 

@@ -11,16 +11,10 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>PT Yanno Agro Science</title>
+    <title>{{ $nama_perusahaan }}</title>
   </head>
   <body>
 
-  <div class="carousel-inner">
-    <div class="carousel-item">
-      <img src="AdminLTE-3.2.0/dist/img/index1.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
 
 
   <!-- Navbar -->
@@ -46,7 +40,7 @@
             <a class="nav-link" aria-current="page" href="/cbindex"><span class="text-white">Lowongan Kerja</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/index"><span class="text-white">Log Out</span></a>
+            <a class="nav-link" aria-current="page" href="/logout"><span class="text-white">Log Out</span></a>
             </li>
           </ul>
         </div>
@@ -54,13 +48,11 @@
       </nav>
   <!-- Akhir Navbar -->
 
-
-<div class="judul text-center mt-5">
-          <h3 class="card-title">Staff Admin</h3>
-          <h5 class="font-weight-bold">PT Yanno Agro Science</h5>
-          <p></p>
-          <a href= "/form" class="btn btn-outline-primary">Lamar Sekarang</a>
-          <a href= "/cbindex" type="button" class="btn btn-outline-dark">Back</a>
+<div class="judul text-center mt-5" style="background-image: url('pict_folder/{{ $loker->relation_code }}')">
+    <h3 class="card-title">{{ $loker->posisi }}</h3>
+    <h5 class="font-weight-bold">{{$nama_perusahaan }}</h5>
+    <a href= "/form" class="btn btn-outline-primary">Lamar Sekarang</a>
+    <a href= "/cbindex" type="button" class="btn btn-outline-dark">Back</a>
 </div>
 <p></p>
 
@@ -68,11 +60,8 @@
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">Deskripsi Pekerjaan :</h5>
-                <h6 class="m-1">- Bertanggungjawab langsung atas stock barang di gudang</h6>
-                <h6 class="m-1">- Mengatur, mengawasi, menghitung jumlah stock barang</h6>
-                <h6 class="m-1">- Mengontrol keluar masuk barang & membuat laporan stock barang</h6>
-                <h6 class="m-1">- Melakukan pengecekan secara berkala</h6>
-                <h6 class="m-1"></h6>
+      <h6 class="m-1">{{ $loker->deskripsi }}</h6>
+               
   </div>
 </div>
 <p></p>
@@ -80,16 +69,7 @@
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">Persyaratan :</h5>
-                <h6 class="m-1">- Pendidikan Minimal SMA/SMK/Sederajat</h6>
-                <h6 class="m-1">- Maksimal umur 30 tahun</h6>
-                <h6 class="m-1">- Pengalaman Minimal 1 Tahun</h6>
-                <h6 class="m-1">- Mampu Menguasai MS. Word, MS. Excel & MS. Power Point</h6>
-                <h6 class="m-1">- Dapat berkomunikasi denganbaik</h6>
-                <h6 class="m-1">- Disiplin, Teliti, Ulet, Loyal, Jujur, Berani & Bertanggung jawab</h6>
-                <h6 class="m-1">- Mampu bekerja di bawah tekanan</h6>
-                <h6 class="m-1">- Dapat bekerja sama dalam team maupun individu</h6>
-                <h6 class="m-1">- Penempatan wilayah Tangerang
-                </h6>
+      <h6 class="m-1">{{ $loker->kriteria }}</h6>
   </div>
 </div>
 <p></p>

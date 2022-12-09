@@ -43,6 +43,10 @@
                 <label>Deskripsi</label>
                 <textarea class="form-control" name="deskripsi" value="{{ $model->deskripsi }}" placeholder="Masukkan Deskripsi" required></textarea>
             </div>
+            <div class="form-group">
+                <label>Kriteria</label>
+                <textarea class="form-control" name="kriteria" value="{{ $model->kriteria }}" placeholder="Masukkan Deskripsi" required></textarea>
+            </div>
             <button type="submit" class="btn btn-success" name="simpan">Simpan</button>
             <a href= "/pilihan" type="button" class="btn btn-primary" name="back">Back</a>
 

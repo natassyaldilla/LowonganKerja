@@ -88,7 +88,7 @@
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">{{$l->posisi}}</h5>
                 <label class="card-text harga">{{$l->nama}}</label><br>
-                  <a href="/more" class="btn btn-primary btn-sm">More info</a>
+                  <a href="/more?id={{ $l->id }}" class="btn btn-primary btn-sm">More info</a>
                 </div>
               </div>
           </div>

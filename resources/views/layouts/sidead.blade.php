@@ -40,6 +40,22 @@
                 </a>
               </li>
             </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/datalokerja" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Loker</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/dataperuad" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Perusahaan</p>
+                </a>
+              </li>
+            </ul>
           </li>
         
 

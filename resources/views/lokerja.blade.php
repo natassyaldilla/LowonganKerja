@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <tittle></tittle>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -47,6 +46,10 @@
                 <label>Deskripsi</label>
                 <textarea class="form-control" name="deskripsi" placeholder="Masukkan Deskripsi" required></textarea>
             </div>
+            <div class="form-group">
+                <label>Kriteria</label>
+                <textarea class="form-control" name="kriteria" placeholder="Masukkan Kriteria" required></textarea>
+            </div>
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
@@ -57,7 +60,7 @@
                 </div>
             @endif
             <button type="submit" class="btn btn-success" name="simpan">Simpan</button>
-            <a href= "/pilihan" type="button" class="btn btn-primary" name="back">Back</a>
+            <a href="/datalokerja" type="button" class="btn btn-primary" name="back">Back</a>
 
         </form>
     </div>

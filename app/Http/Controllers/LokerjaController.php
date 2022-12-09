@@ -15,22 +15,26 @@ class LokerjaController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+  
     public function lokerja(){
-        return view('/lokerja');
+        return view('lokerja',[
+            'perusahaan'=> $perusahaan
+        ]);
     }
 
     public function datalokerja(){
-        return view('/datalokerja');
+       
+        return view('datalokerja');
     }
 
     public function lokerjaupdate(){
-        return view('/lokerjaupdate');
+        return view('lokerjaupdate');
     }
     
     public function index()
     {
         $data = lokerja::all();
-        return view('/datalokerja', compact('data'));
+        return view('datalokerja', compact('data'));
     }
 
     /**
@@ -62,7 +66,6 @@ class LokerjaController extends Controller
     {
         // echo 'test';
         
-        $count = DB::table('perusahaan')->count();
         // dd($count);
         $validatedData = $request->validate([
             'nama'=> 'required',
@@ -74,25 +77,30 @@ class LokerjaController extends Controller
 
         $pict = $request->file('pict');
         $pictFolder = 'pict_folder';
-        $pictName = $this->slug($pict->getClientOriginalName()).$this->slug($validatedData['nama']).'_'.$count.'.'.$pict->getCLientOriginalExtension();
+        $pictName = $pict->getClientOriginalName();
+        // $pictName = $this->slug($pict->getClientOriginalName()).$this->slug($validatedData['nama']).'_'.$count.'.'.$pict->getCLientOriginalExtension();
         $pict->move($pictFolder, $pictName);
 
-        $validatedData['relation_code'] = $validatedData['nama'].$count;
+        $validatedData['relation_code'] = $pictName;
         $validatedData['pict'] = $pictName;
         // dd($validatedData);
-        Perusahaan::create($validatedData);
+        $count = Perusahaan::where('nama',$validatedData['nama'])->count();
+        if($count == 0){
+            Perusahaan::create($validatedData);
+        }
 
         $validatedLoker = $request->validate([
             'email'=> 'required',
             'alamat'=> 'required',
             'posisi' => 'required',
-            'deskripsi' => 'required'
+            'deskripsi' => 'required',
+            'kriteria' => 'required'
         ]);
         $validatedLoker['relation_code'] = $validatedData['relation_code'];
         // dd($validatedLoker);
         Lokerja::create($validatedLoker);
         
-        return redirect('/cbindex');
+        return redirect('/datalokerja');
     }
 
     /**
@@ -133,6 +141,7 @@ class LokerjaController extends Controller
         $model->alamat = $request->alamat;
         $model->posisi = $request->posisi;
         $model->deskripsi = $request->deskripsi;
+        $model->kriteria = $request->kriteria;
         $model->save();
 
         return redirect('datalokerja');

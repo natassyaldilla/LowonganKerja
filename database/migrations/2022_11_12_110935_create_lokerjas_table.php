@@ -20,6 +20,7 @@ class CreateLokerjasTable extends Migration
             $table->string('alamat', 50);
             $table->string('posisi', 50);
             $table->string('deskripsi');
+            $table->text('kriteria');
             $table->string('relation_code');
             $table->timestamps();
         });
